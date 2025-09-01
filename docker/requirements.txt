@@ -1,0 +1,28 @@
+### PyTorch Dependencies (using custom source for CUDA)
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1+cu128
+torchvision
+torchaudio==2.7.1+cu128
+
+descript-audio-codec
+transformers>=4.45.1,<4.47.0
+librosa
+dacite
+boto3==1.35.36
+s3fs
+json_repair
+pandas
+pydantic
+vector_quantize_pytorch
+loguru
+pydub
+ruff==0.12.2
+omegaconf
+click
+langid
+jieba
+accelerate>=0.26.0
+
+#v2
+gradio[mcp]
+spaces
