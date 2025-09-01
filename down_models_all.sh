@@ -27,7 +27,7 @@ mkdir_all
 #开始下载模型数据
 echo "Download bosonai/higgs-audio-v2-generation-3B-base..."
 MODEL_REPO_URL="https://hf-mirror.com"
-MODEL_REPO_ID=" bosonai/higgs-audio-v2-generation-3B-base"
+MODEL_REPO_ID="bosonai/higgs-audio-v2-generation-3B-base"
 LOCAL_BASE_DIR="higgs-audio-v2-generation-3B-base"
 REQUIRED_FILES=( config.json generation_config.json higgs_audio_v2_architecture_combined.png LICENSE model-00002-of-00003.safetensors  model.safetensors.index.json  README.md tokenizer_config.json 
 emergent-tts-emotions-win-rate.png  higgs_audio_tokenizer_architecture.png  higgs_audio_v2_open_source_delay_pattern.png  model-00001-of-00003.safetensors  model-00003-of-00003.safetensors  open_source_repo_demo.mp4 special_tokens_map.json  tokenizer.json )
