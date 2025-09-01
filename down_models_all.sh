@@ -26,7 +26,6 @@ mkdir_all
 
 #开始下载模型数据
 echo "Download bosonai/higgs-audio-v2-generation-3B-base..."
-
 MODEL_REPO_URL="https://hf-mirror.com"
 MODEL_REPO_ID=" bosonai/higgs-audio-v2-generation-3B-base"
 LOCAL_BASE_DIR="higgs-audio-v2-generation-3B-base"

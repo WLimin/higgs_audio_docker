@@ -1,0 +1,6 @@
+[submodule "higgs-audio"]
+	path = higgs-audio
+	url = https://github.com/boson-ai/higgs-audio
+[submodule "higgs_audio_v2"]
+	path = higgs_audio_v2
+	url = https://hf-mirror.com/spaces/smola/higgs_audio_v2
